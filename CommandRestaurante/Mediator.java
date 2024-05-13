@@ -5,6 +5,12 @@ public class Mediator implements MediatorInterfaz{
     private ServicioCliente servicioCliente;
     private Entrega entrega;
 
+    public Mediator(Cocina cocina, ServicioCliente servicioCliente, Entrega entrega) {
+        this.cocina = cocina;
+        this.servicioCliente = servicioCliente;
+        this.entrega = entrega;
+    }
+
     @Override
     public void ejecutar() {
         cocina.cocinar();

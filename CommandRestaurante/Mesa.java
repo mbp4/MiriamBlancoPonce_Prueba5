@@ -1,6 +1,6 @@
 package CommandRestaurante;
 
-public abstract class Mesa {
+public class Mesa {
 
     private StateInterfaz estado;
 
