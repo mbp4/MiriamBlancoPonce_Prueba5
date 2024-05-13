@@ -25,7 +25,6 @@ public class RestauranteCadena implements Componente{
         System.out.println("La cadena de resturantes esta formada por: ");
         for (RestauranteIndividual restauranteIndividual: restaurantes){
             restauranteIndividual.nombre();
-            System.out.println("\n");
         }
     }
 }
